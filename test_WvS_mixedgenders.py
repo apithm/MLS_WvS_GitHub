@@ -78,20 +78,13 @@ for i in range(len(N_classifier_chosen_list)):
     comb = combinations(classifier_list, N_classifier_chosen_list[i])
     for c in list(comb):
         b=b+1
-    # a=0
 
-# print(b)
 trial=50
 trial_2=5
-# trial=3
+
 
 N_feature=138
-# N_feature=20
 
-
-
-# if class_tobetested==0:
-#     b=b*4
 
 path = 'D:\\Dropbox\\NECTEC\\My Documents\\StressClassification_NRIIS\\Result\\Full_ECG_EEG_2types_Allvs1class_mixed_gender\\'
 path_2 = 'D:\\Dropbox\\NECTEC\\My Documents\\StressClassification_NRIIS\\Result\\Full_ECG_EEG_2types_allclass_mixed_gender_5trialsPC\\'
@@ -130,8 +123,6 @@ for classifier_chosen_count_list_count in range(len(N_classifier_chosen_list)):
 
 
 
-    # for class_tobetest_count in range(1,total_class+1):
-    # class_tobetest_count=class_tobetested
     comb_count_2=0
     comb = combinations(classifier_list, classifier_chosen)
     for comb_count in list(comb):
